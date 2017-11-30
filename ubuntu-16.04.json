@@ -19,7 +19,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "packer-ubuntu-16.04-jenkins-tags-test-1 {{timestamp}}"
+    "ami_name": "packer-ubuntu-16.04-jenkins-tags-test-2 {{timestamp}}"
   }],
 
   "provisioners": [
