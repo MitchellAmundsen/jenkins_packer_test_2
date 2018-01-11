@@ -1,7 +1,8 @@
 {
   "variables": {
     "aws_access_key": "access_var",
-    "aws_secret_key": "secret_var"
+    "aws_secret_key": "secret_var",
+    "aws_access_key_2": "aws_keys"
   },
   "builders": [{
     "type": "amazon-ebs",
@@ -19,7 +20,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "packer-ubuntu-16.04-{{user `REPO`}}-2 {{timestamp}}"
+    "ami_name": "packer-ubuntu-16.04-jenkins-tags-test {{timestamp}}"
   }],
 
   "provisioners": [
