@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "test"
+
 echo $1
 var=$1
 echo "var: $var"
